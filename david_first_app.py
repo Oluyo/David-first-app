@@ -11,7 +11,7 @@ import streamlit as st
 
 st.title("Netlix 18+ Hollywood Movies Censoring System")
 
-age = st.number_input("Enter your age:", min_value=0, steps=1)
+age = st.number_input("Enter your age:", min_value=0, step=1)
 
 if st.button("Check Eligibilty"):
   if age <13:
